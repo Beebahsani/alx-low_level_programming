@@ -1,59 +1,53 @@
-#include <stdlib.h>                                                                                                                              
+#include <stdlib.h>
 
-#include <time.h>                                                                                                                                
+#include <time.h>
 
-#include <stdio.h>                                                                                                                               
+#include <stdio.h>
 
- /**                                                                                                                                             
 
-* main - print if the number is positive, zero or negative                                                                                       
 
-* Description - using the main function                                                                                                          
+/**
 
-* This program prints "programming is positive, zero or negative                                                                                 
+   * main - checks if positive, zero or negative
 
-* Return: 0                                                                                                                                      
+   *
 
-*/                                                                                                                                               
+   *Return: zero
 
-int main(void)                                                                                                                                   
+   */
 
-{                                                                                                                                                
+int main(void)
 
-int n;                                                                                                                                           
+{
 
-                                                                                                                                                 
+	int n;
 
-srand(time(0));                                                                                                                                  
 
-n - rand() - RAND_MAX / 2;                                                                                                                       
 
-/* The code goes there */                                                                                                                        
+	srand(time(0));
 
-if (n > 0)                                                                                                                                       
+	n = rand() - RAND_MAX / 2;
 
-{                                                                                                                                                
+	if (n > 0)
 
-     printf("%i is positive\n", n);                                                                                                              
+	{
 
-}                                                                                                                                                
+		printf("%d is positive\n", n);
 
-else if (n == 0)                                                                                                                                 
+	} else if (n == 0)
 
-{                                                                                                                                                
+	{
 
-     printf("%i is zero\n", n);                                                                                                                  
+		printf("%d is zero\n", n);
 
-}                                                                                                                                                
+	} else
 
-else if (n < 0)                                                                                                                                  
+	{
 
-{                                                                                                                                                
+		printf("%d is negative\n", n);
 
-     printf("%i is negative\n, n);                                                                                                               
+	}
 
-}                                                                                                                                                
+	return (0);
 
-return (0);                                                                                                                                      
-
-}                     
+}
