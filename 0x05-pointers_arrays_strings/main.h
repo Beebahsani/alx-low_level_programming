@@ -1,19 +1,41 @@
-#ifndef MAIN.H
-#define MAIN.H
+#ifndef MAIN_H
 
-#include <stdio.h>
+#define MAIN_H
 
-int _putchar(char c);
+
+
+/**
+
+* void prototypes()
+
+* int prototypes()
+
+*/
+
+
+
 void reset_to_98(int *n);
-void swap_int(int *a, int *b);
-int _strlen(char *s);
-void _puts(char *str);
-void print_rev(char *s);
-void rev_string(char *s);
-void puts2(char *str);
-void puts_half(char *str);
-void print_array(int *a, int n);
-char *_strcpy(char *dest, char *src);
-int _atoi(char *s);
 
-#endif // MAIN.H
+void swap_int(int *a, int *b);
+
+int _strlen(char *s);
+
+void _puts(char *str);
+
+void print_rev(char *s);
+
+void rev_string(char *s);
+
+void puts2(char *str);
+
+void puts_half(char *str);
+
+void print_array(int *a, int n);
+
+char *_strcpy(char *dest, char *src);
+
+int _atoi(char *str);
+
+
+
+#endif /*MAIN_H*/
