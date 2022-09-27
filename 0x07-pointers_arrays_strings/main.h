@@ -1,9 +1,9 @@
-#ifinedf MAIN_H
+#ifndef MAIN_H
 #define MAIN_H
 
 /**
 * void prototypes()
-* int prototype()
+* int prototypes()
 */
 
 int _putchar(char);
