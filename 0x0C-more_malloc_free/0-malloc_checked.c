@@ -1,4 +1,4 @@
-#include "main."h
+#include "main.h"
 #include <stdlib.h>
 
 /**
@@ -14,5 +14,6 @@ void *p;
 p = malloc(b);
 if (p == NULL)
 exist(98);
+
 return (p);
 }
